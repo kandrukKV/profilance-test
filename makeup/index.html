@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <header class="header container">
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item">
+          <a href="#" class="nav__link nav__link--active">Главная</a>
+        </li>
+        <li class="nav__item nav__item--active">
+          <a href="#" class="nav__link">Новости</a>
+        </li>
+      </ul>
+    </nav>
+
+    <button class="news__btn">Вход</button>
+
+  </header>
+
+  <section class="main container">
+    <h2 class="main__title">Привет, Гость!</h2>
+  </section>
+
+  <section class="news container">
+    <h2 class="news__head">Новости</h2>
+
+    <div class="search">
+      <label class="search__label" for="serch_news" class="search-label">Поиск:</label>
+      <input class="serch__input" id="serch_news" type="text">
+    </div>
+
+    <ul class="news__list">
+      <li class="news__item">
+        <h3 class="news__title">Путин поручил на следующей неделе начать вакцинацию от COVID-19</h3>
+        <p class="news__content">
+          В России начинается массовая вакцинация от коронавируса COVID-19. Распоряжение о начале вакцинации с 7 декабря президент России Владимир Путин дал вице-премьеру Татьяне Голиковой. Он отметил, что в ближайшие дни будет произведено в России уже более двух миллионов доз вакцины "Спутник V"
+        </p>
+        <p class="news__date">дата: 2 дек 2020</p>
+        <div class="news__conttrol">
+          <button class="news__btn">Одобрить</button>
+          <button class="news__btn news__btn--warning">Удалить</button>
+        </div>
+      </li>
+    </ul>
+
+    <form class="add__new">
+      <h2 class="add-new__head">Добавить новость</h2>
+      <div class="add-new__row">
+        <label class="add-new__label" for="new_title">Название новости:</label>
+        <input class="add-new__input" id="new_title" type="text" required>
+      </div>
+      <div class="add-new__row">
+        <label class="add-new__label" for="new_content">Текст новости:</label>
+        <textarea class="add-new__textarea" id="new_content" type="text" required></textarea>
+      </div>
+      <div class="add-new__row">
+        <button type="submit" class="news__btn">Добавить</button>
+      </div>
+    </form>
+  </section>
+
+  <footer class="footer container">
+    <h4 class="footer__title">&copy;Constantine</h4>
+  </footer>
+
+  <div class="login login--close">
+    <span class="login__close"></span>
+    <h3>Авторизация</h3>
+    <form class="login__form">
+      <div class="login__row">
+        <label class="login__label" for="login">Логин:</label>
+        <input class="login__input" id="login" type="text" required>
+      </div>
+      <div class="login__row">
+        <label class="login__label" for="pass">Пароль:</label>
+        <input class="login__input" id="pass" type="password" required>
+      </div>
+  
+      <div class="login__row">
+        <button class="news__btn" type="submit">Отправить</button>
+      </div>
+    </form>
+
+  </div>
+
+</body>
+</html>

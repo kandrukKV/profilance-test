@@ -1,0 +1,18 @@
+.search {
+  padding: 0 0 0 40px;
+  margin-bottom: 45px;
+  text-align: right;
+}
+
+.search__label {
+  padding-right: 15px;
+}
+
+.serch__input {
+  border-radius: 4px;
+  height: 25px;
+}
+
+.serch__input:focus {
+  outline: 2px solid skyblue;
+}

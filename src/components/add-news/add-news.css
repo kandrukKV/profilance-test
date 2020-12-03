@@ -1,0 +1,41 @@
+.add__new {
+  padding: 0 0 0 40px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 600px;
+}
+
+.add-new__head {
+  text-align: center;
+}
+
+.add-new__row {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.add-new__label {
+  margin-bottom: 10px;
+}
+
+.add-new__input {
+  width: 450px;
+  height: 25px;
+  border-radius: 4px;
+}
+
+.add-new__input:focus {
+  outline: 2px solid skyblue;
+}
+
+.add-new__textarea {
+  width: 450px;
+  height: 200px;
+  border-radius: 4px;
+  resize: none;
+}
+.add-new__textarea:focus {
+  outline: 2px solid skyblue;
+}

@@ -1,0 +1,9 @@
+.news {
+  padding: 0 5px;
+}
+
+.news__conttrol {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
